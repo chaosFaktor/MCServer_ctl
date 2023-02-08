@@ -1,9 +1,10 @@
+import os
 
 
 
-
-class os:
+class system:
     name=os.name
 
     class cmd:
-        clear=
+        if os.name=='posix':
+            clear='clear'
